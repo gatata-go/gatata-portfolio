@@ -1,7 +1,7 @@
 [
   {
     "id": "work-1",
-    "title": "작업물1",
+    "title": "Design_1",
     "category": "디자인",
     "date": "2025~2026",
     "description": "디자인 관련 작업물",
@@ -16,10 +16,18 @@
   },
   {
     "id": "work-2",
-    "title": "PASTEL DREAM",
+    "title": "character_1",
     "category": "일러스트",
-    "date": "2026.10",
-    "description": "컬러와 분위기를 기록하는 일러스트 모음."
+    "date": "2025~2026",
+    "description": "캐릭터 일러스트 ( 반신, 전신 )",
+    "images": [
+      "media/1.jpg",
+      "media/2.jpg",
+      "media/3.png",
+      "media/4.jpg",
+      "media/5.jpg",
+      "media/6.jpg"
+    ]
   },
   {
     "id": "work-3",
