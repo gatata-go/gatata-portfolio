@@ -1,10 +1,18 @@
 [
   {
     "id": "work-1",
-    "title": "MY LITTLE CHARACTER",
+    "title": "작업물1",
     "category": "디자인",
-    "date": "2026.11",
-    "description": "내 캐릭터 작업을 소개하는 첫 게시글입니다. 원하는 이미지로 교체해 주세요!"
+    "date": "2025~2026",
+    "description": "디자인 관련 작업물",
+    "images": [
+      "media/kakaotalk2026111423415902403.jpg",
+      "media/kakaotalk2026111423415902402.jpg",
+      "media/kakaotalk2026111423415902404.jpg",
+      "media/kakaotalk2026111423415902401.jpg",
+      "media/kakaotalk2026111423415902405.jpg",
+      "media/kakaotalk20261114234159024.png"
+    ]
   },
   {
     "id": "work-2",
