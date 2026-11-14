@@ -1,14 +1,14 @@
 {
-  "name": "YOUR NAME",
-  "role": "Illustrator & Visual Storyteller",
-  "bio": "작은 장면에서 시작되는 커다란 이야기.\n일러스트와 캐릭터, 좋아하는 순간을 이곳에 모읍니다.",
-  "instagram": "https://instagram.com",
-  "email": "hello@example.com",
-  "banner": "",
+  "name": "GATATA",
+  "role": "Animator & Illustrator",
+  "bio": "언제나 붓을 잡는 호랑이입니다.\n애니메이션, 일러스트, 디자인, 영상 편집 등 다양한 걸 시도하는 중입니다.",
+  "instagram": "https://www.instagram.com/yu_gg_12?cplk=NmpoeDZocnV6MHRx",
+  "email": "gy463798@gmail.com",
+  "banner": "media/file-1.jpg",
   "categories": [
-    "캐릭터 디자인",
+    "디자인",
     "일러스트",
-    "개인 작업",
+    "커미션",
     "애니메이션"
   ]
 }
