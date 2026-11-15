@@ -271,34 +271,42 @@ header .brand .brand-star{color:#d7263d!important;-webkit-text-fill-color:#d7263
 /* Public gallery: editor controls are intentionally absent. */
 .gallery-heading{align-items:end}.hero-actions{bottom:35px}
       
+
 /* 상세보기 X 닫기 버튼 */
-#overlay .close {
+#overlay #modal > button.close {
   position: absolute;
   top: 12px;
   right: 12px;
-  z-index: 100;
+  z-index: 9999;
 
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  width: 44px;
-  height: 44px;
+  width: 48px;
+  height: 48px;
   padding: 0;
 
-  border: none;
+  border: 0;
   background: transparent;
   color: #02182B;
 
   font-size: 30px;
   line-height: 1;
-  cursor: pointer;
+  cursor: pointer !important;
+  pointer-events: auto !important;
 
   transform: none !important;
   box-shadow: none !important;
 }
 
-/* X 버튼 마우스 호버 */
-#overlay .close:hover {
+#overlay #modal > button.close:hover {
+  background: transparent !important;
+  color: #D7263D !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
   background: transparent !important;
   color: #D7263D !important;
   transform: none !important;
