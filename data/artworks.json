@@ -3,8 +3,8 @@
     "id": "work-1",
     "title": "Design_1",
     "category": "디자인",
-    "date": "2025~2026",
-    "description": "디자인 관련 작업물",
+    "date": "2025 - 2026",
+    "description": "세션카드",
     "images": [
       "media/kakaotalk2026111423415902403.jpg",
       "media/kakaotalk2026111423415902402.jpg",
@@ -18,7 +18,7 @@
     "id": "work-2",
     "title": "character_1",
     "category": "일러스트",
-    "date": "2025~2026",
+    "date": "2025 - 2026",
     "description": "캐릭터 일러스트 ( 반신, 전신 )",
     "images": [
       "media/1.jpg",
@@ -40,5 +40,12 @@
     "id": "work-4",
     "title": "none",
     "category": "애니메이션"
+  },
+  {
+    "id": "work-5",
+    "title": "Comics",
+    "category": "일러스트",
+    "date": "2025 - 2026",
+    "description": "가로, 세로 포함"
   }
 ]
