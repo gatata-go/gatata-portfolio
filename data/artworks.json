@@ -34,10 +34,14 @@
   },
   {
     "id": "work-3",
-    "title": "DOODLE NOTES",
+    "title": "Commission",
     "category": "커미션",
-    "date": "2026.09",
-    "description": "작은 낙서와 아이디어의 기록."
+    "date": "2025 - 2026",
+    "description": "CM  [ 낙서, 만화 ]",
+    "images": [
+      "media/12.jpg",
+      "media/18.jpg"
+    ]
   },
   {
     "id": "work-4",
@@ -49,6 +53,14 @@
     "title": "Comics",
     "category": "일러스트",
     "date": "2025 - 2026",
-    "description": "가로, 세로 포함"
+    "description": "가로 만화",
+    "images": [
+      "media/15.jpg",
+      "media/21.jpg",
+      "media/7.jpg",
+      "media/20.jpg",
+      "media/1.jpg",
+      "media/14.jpg"
+    ]
   }
 ]
