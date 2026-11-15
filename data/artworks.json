@@ -65,14 +65,15 @@
     "title": "Comics",
     "category": "일러스트",
     "date": "2025 - 2026",
-    "description": "가로 만화",
+    "description": "만화",
     "images": [
       "media/15.jpg",
       "media/21.jpg",
       "media/7.jpg",
       "media/20.jpg",
       "media/1.jpg",
-      "media/14.jpg"
+      "media/14.jpg",
+      "media/16.jpg"
     ]
   },
   {
