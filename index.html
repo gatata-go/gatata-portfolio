@@ -270,6 +270,40 @@ header .brand .brand-star{color:#d7263d!important;-webkit-text-fill-color:#d7263
 @media(prefers-reduced-motion:reduce){.pill,.profile-links a,.category-item button,.cat-add button{transition:none!important}}
 /* Public gallery: editor controls are intentionally absent. */
 .gallery-heading{align-items:end}.hero-actions{bottom:35px}
+      
+/* 상세보기 X 닫기 버튼 */
+#overlay .close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 100;
+
+  display: grid;
+  place-items: center;
+
+  width: 44px;
+  height: 44px;
+  padding: 0;
+
+  border: none;
+  background: transparent;
+  color: #02182B;
+
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
+
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* X 버튼 마우스 호버 */
+#overlay .close:hover {
+  background: transparent !important;
+  color: #D7263D !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
 </style></head><body><header><div class="shell top"><a class="brand" href="#top">GATATA <span class="brand-star">✳</span></a><nav><a href="#about">ABOUT</a><a href="#gallery">GALLERY</a></nav></div></header><main class="shell" id="top"><section class="hero" aria-label="GATATA 메인 배너"><div class="hero-bg"></div><img id="heroImage" class="hero-img" alt="메인 배너 일러스트"><div class="hero-copy"><span class="micro">WELCOME TO MY ART WORLD ★</span><h1>GATATA!</h1><h2>little art universe ♡</h2><p>CHARACTERS · ILLUSTRATIONS · DAYDREAMS</p></div><div class="hero-art" id="heroArt"><svg viewBox="0 0 400 450" xmlns="http://www.w3.org/2000/svg" aria-label="샘플 캐릭터 일러스트"><path d="M78 173 58 38Q100 30 151 104 207 79 257 101 317 24 354 43L319 187" fill="#f3b2cc" stroke="#3b315e" stroke-width="11" stroke-linejoin="round"/><path d="M94 165Q70 104 153 82L177 157M300 159Q336 99 269 82L249 157" fill="#f9dfec" stroke="#3b315e" stroke-width="9"/><ellipse cx="202" cy="239" rx="143" ry="157" fill="#ffe7d3" stroke="#3b315e" stroke-width="11"/><path d="M64 224Q45 112 153 112Q196 54 261 107Q342 109 337 210Q309 161 280 163L250 128Q216 177 165 163Q134 207 64 224Z" fill="#d989bd" stroke="#3b315e" stroke-width="10"/><ellipse cx="146" cy="250" rx="24" ry="34" fill="#3d376e"/><ellipse cx="258" cy="250" rx="24" ry="34" fill="#3d376e"/><ellipse cx="155" cy="238" rx="9" ry="14" fill="white"/><ellipse cx="267" cy="238" rx="9" ry="14" fill="white"/><ellipse cx="107" cy="296" rx="28" ry="13" fill="#f3a0b3" opacity=".75"/><ellipse cx="293" cy="296" rx="28" ry="13" fill="#f3a0b3" opacity=".75"/><path d="M187 300Q202 317 217 300" fill="none" stroke="#3b315e" stroke-width="8" stroke-linecap="round"/><path d="M124 374Q200 332 279 373L320 445H84Z" fill="#8da6dc" stroke="#3b315e" stroke-width="10"/><path d="M156 376 202 410 247 376" fill="none" stroke="#fff2d6" stroke-width="9"/><path d="M320 320q35 -34 52 0q-17 38 -52 0" fill="#fff3b5" stroke="#3b315e" stroke-width="7"/></svg></div><div class="spark">✳</div><div class="sticker a">100% DOODLES ♡</div><div class="sticker b">ART CLUB ✿</div><div class="hero-actions"><button class="pill" onclick="document.getElementById('gallery').scrollIntoView()">SEE MY WORKS ↘</button></div></section><div class="ribbon">✳ MADE OF LITTLE STORIES ✳</div><section id="about" class="profile-section"><div class="profile-card"><div class="tiger-label graffiti-label" role="img" aria-label="작가 프로필 그래피티 타이거 배지"><svg viewBox="0 0 300 250" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="M35 72 16 9 101 40 151 17 201 40 283 9 265 72 287 117 266 200 214 228 147 220 79 234 28 202 11 117Z" fill="#D7263D" stroke="#02182B" stroke-width="9" stroke-linejoin="miter"/><path d="M39 80 26 25 103 54 150 32 198 54 274 25 259 80 271 122 251 191 206 213 147 204 84 218 42 188 26 121Z" fill="#0197F6" stroke="white" stroke-width="8" stroke-linejoin="miter"/><path d="M54 88 47 49 103 70 150 51 197 70 252 49 246 88 253 125 235 180 199 192 148 188 90 196 57 176 46 124Z" fill="#F7FAF6" stroke="#02182B" stroke-width="8"/><path d="m95 64 13 21m42-28v26m44-19-13 21M53 115l21 11-19 10m194-21-21 11 19 10" fill="none" stroke="#D7263D" stroke-width="8" stroke-linecap="square"/><path d="m72 192-28 28m179-24 27 27" stroke="#68C5DB" stroke-width="9"/><path d="M39 231 53 213m-26 2 17-7m204 20-12-15m23 1-17-8" stroke="#D7263D" stroke-width="7"/></svg><span class="tiger-text"><b>작가</b><b>프로필</b><small>ARTIST / 01 ★</small></span></div><span class="graffiti-spark" aria-hidden="true">✦</span><div class="profile-info"><div class="eyebrow">HELLO, I'M THE MAKER ✿</div><h2 id="artistName">YOUR NAME</h2><div class="role" id="artistRole">Illustrator & Visual Storyteller</div><p class="bio" id="artistBio">그림으로 작은 이야기를 모으고 있어요.</p><div class="profile-links"><a id="instagram" href="https://instagram.com" target="_blank" rel="noopener">INSTAGRAM ↗</a><a id="email" href="mailto:hello@example.com">CONTACT ↗</a></div></div></div></section><section class="gallery" id="gallery"><div class="gallery-heading"><div><div class="eyebrow">COLLECTED WITH LOVE ★</div><h2>ART <em>GALLERY</em> ✳</h2></div></div><div id="groups"></div></section></main><footer class="shell"><span>© 2026 GATATA — LITTLE ART UNIVERSE</span><span>MADE WITH ♡ AND DOODLES</span></footer><div class="overlay" id="overlay" onclick="if(event.target===this)closeModal()"><div class="modal" id="modal"></div></div><script>
 /* GATATA public viewer — content changes exclusively through Pages CMS / GitHub. */
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
