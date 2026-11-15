@@ -33,6 +33,18 @@
     ]
   },
   {
+    "id": "work-7",
+    "title": "Sheet",
+    "category": "일러스트",
+    "date": "2026",
+    "description": "캐릭터 표정 시트",
+    "images": [
+      "media/11.jpg",
+      "media/10.jpg",
+      "media/표정 시트.jpg"
+    ]
+  },
+  {
     "id": "work-3",
     "title": "Commission",
     "category": "커미션",
