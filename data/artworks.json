@@ -19,7 +19,18 @@
     "title": "character_1",
     "category": "일러스트",
     "date": "2025 - 2026",
-    "description": "캐릭터 일러스트 ( 반신, 전신 )"
+    "description": "캐릭터 일러스트 ( 반신, 전신 )",
+    "images": [
+      "media/13.jpg",
+      "media/17.jpg",
+      "media/2.jpg",
+      "media/3.png",
+      "media/4.jpg",
+      "media/5.jpg",
+      "media/6.jpg",
+      "media/8.jpg",
+      "media/9.jpg"
+    ]
   },
   {
     "id": "work-3",
