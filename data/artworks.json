@@ -62,5 +62,27 @@
       "media/1.jpg",
       "media/14.jpg"
     ]
+  },
+  {
+    "id": "work-6",
+    "title": "Comics_Series",
+    "category": "일러스트",
+    "date": "2026.03",
+    "description": "캐릭터 만화 13장",
+    "images": [
+      "media/C_1.jpg",
+      "media/C_2.jpg",
+      "media/C_3.jpg",
+      "media/C_4.jpg",
+      "media/C_5.jpg",
+      "media/C_6.jpg",
+      "media/C_7.jpg",
+      "media/C_8.jpg",
+      "media/C_9.jpg",
+      "media/C_10.jpg",
+      "media/C_11.jpg",
+      "media/C_12.jpg",
+      "media/C_13.jpg"
+    ]
   }
 ]
